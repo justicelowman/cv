@@ -1,0 +1,130 @@
+
+
+body{
+  margin: 0;
+
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  font-size:1rem; /*16px */
+}
+hr{
+  border:none;
+  border-top: 10px dotted;
+  color:rgb(164, 203, 208);
+  width:6%;
+  margin: 100px auto;
+}
+h1{
+  color:#66BFBF;
+  font-size:5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color:#66BFBF;
+  font-weight:700;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h3, a{
+ color: #11999E;
+ font-family: 'Merriweather', serif;
+ font-weight:700;
+ text-decoration: none;
+ padding:0 30px;
+}
+a:hover{
+  color: rgb(87, 222, 199);
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+}
+
+.top-container{
+  position:relative;
+  padding-top:100px;
+  margin:0;
+  line-height:2;
+  background-color: #EAF6F6;
+
+}
+.middle-container{
+  background-color: white;
+  color:#40514E;
+  font-weight:700;
+  width:50%;
+  margin:0 auto 0 auto;
+}
+.bottom-container{
+  width:100%;
+  height:200px;
+  bottom:0;
+  background-color: #66BFBF;
+  margin:0;
+}
+.bottom-container a{
+  display:inline-block;
+  margin: 30px 0;
+}
+
+.skill-row{
+  width:100%;
+  text-align:left;
+  line-height: 2;
+  margin:100px auto 100px auto;
+  font-weight:700;
+
+}
+.software-image{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+.job-image{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+.btn, .footer-link{
+    display:block;
+    position: relative;
+    background: rgb(49,119,120);
+    background: linear-gradient(0deg, rgba(49,119,120,1) 0%, rgba(110,210,214,1) 100%);
+    width: 200px;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+    transition: all .2s;
+    font-weight: 100;
+    white-space: nowrap;
+    font-size: 24px;
+    padding: 0 86px 0 46px;
+    border-radius: 7px;
+    text-decoration:none;
+    margin: 60px auto;
+    text-align:center;
+}
+.btn:hover, .footer-link:hover{
+  background: rgb(49,119,120);
+  background: linear-gradient(0deg, rgba(49,119,120,1) 0%, rgba(142, 241, 255,1) 100%);
+
+}
+.copyright{
+  color: #EAF6F6;
+  font-size:0.75rem;
+  padding:20px 30px;
+}
+
+#profile_picture{
+  border-radius:30px;
+  margin-top:30px;
+}
